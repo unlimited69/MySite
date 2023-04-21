@@ -32,7 +32,7 @@ jobs:
           git config user.email "hbnguye@stud.ntnu.no"
           # If there is no branch, create one using the code:
           # Usually when we initing a git repo, a master branch is generated automatically. 
-          # git init --initial-branch=main                 git@git.gvk.idi.ntnu.no:unlimited69/mysite.git
+          # git init --initial-branch=main
           git remote set-url origin "https://oauth2:$TOKEN@git.gvk.idi.ntnu.no/unlimited69/mysite.git"
           # git remote rename origin old-origin
           # git push -u origin main

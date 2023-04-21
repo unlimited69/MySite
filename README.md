@@ -1,4 +1,4 @@
 # MySite
 
 
-created mostly for my own amusement 
+created mostly for my own amusement. 

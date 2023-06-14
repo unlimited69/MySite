@@ -1,0 +1,31 @@
+#header{
+    background-color: rgb(94, 118, 69);
+    grid-area: header;
+}
+
+#nav{
+    grid-area: nav;
+}
+#menu{
+    position: sticky;
+    background-color: rgb(128, 159, 95);
+}
+
+#main{
+    background-color: rgb(128, 159, 95);
+    grid-area: main;
+}
+
+#footer{
+    background-color: rgb(94, 118, 69);
+    grid-area: footer;
+}
+
+body{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-areas:"header header header"
+                        "nav nav nav"
+                        "main main main"
+                        "footer footer footer";
+}
